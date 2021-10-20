@@ -1,12 +1,14 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use Slim\App;
+use Slim\Factory\AppFactory;
 
 class GuzzlePsr7v1FactoryTest extends TestCase
 {
     public function testCanCreateApp(): void
     {
-        $app = \Slim\Factory\AppFactory::create();
-        $this->assertInstanceOf(\Slim\App::class, $app);
+        $app = AppFactory::create();
+        $this->assertInstanceOf(App::class, $app);
     }
 }
