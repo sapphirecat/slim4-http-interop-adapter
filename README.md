@@ -13,7 +13,7 @@ necessary support with Slim's `Psr17FactoryProvider`.
 ## Guzzle PSR-7 versions in Slim 4
 
 Slim 4 requires a PSR-17 implementation.  Guzzle PSR-7 **version 1.x** does not
-provide this, but **version 2.x** does.
+provide one, but **version 2.x** does.
 
 Prior to 4.9.0, Slim 4 supported the Guzzle HTTP Factory,
 `http-interop/http-factory-guzzle`, which provided the PSR-17 implementation.
