@@ -28,6 +28,6 @@
     "scripts": {
         "fix": ["@php php-cs-fixer fix"],
         "psalm": ["@php psalm"],
-	"test": ["@php phpunit tests"]
+        "test": ["@php phpunit tests"]
     }
 }
