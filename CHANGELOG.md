@@ -8,6 +8,12 @@ Prior to v1.0.2, this included coverage of PHP versions.  Due to changes in the
 wider PHP ecosystem, since v1.0.2, minor versions of this package MAY remove
 supported versions of dependencies.
 
+## 1.0.2 (2023-11-13)
+
+Fixed:
+
+- Refuses to install with incompatible Slim 4.11.
+
 ## 1.0.1 (2021-10-19)
 
 Fixed:
