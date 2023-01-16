@@ -1,0 +1,6 @@
+FROM docker.io/library/php:7.1-alpine
+ENV COMPOSER_ALLOW_SUPERUSER 1
+COPY . /app
+WORKDIR /app
+RUN ["/bin/sh", "/app/container-files/install-composer.sh"]
+CMD ["/usr/local/bin/php", "/usr/local/bin/composer", "test"]
