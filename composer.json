@@ -2,6 +2,11 @@
     "name": "sapphirecat/slim4-http-interop-adapter",
     "description": "Autoconfigures guzzlehttp/psr7 1.x for use with Slim ^4.9",
     "type": "library",
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Sapphirecat\\Slim4HttpInteropAdapter\\": "src/"
